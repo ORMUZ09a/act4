@@ -18,7 +18,8 @@
         %>
         
         
-      <h2>Resultado</h2>
+        <h2>Resultado de la operacion realizada por: </h2>
+        <p><%=trianguloEquilatero.getName()%></p>
         <h3>Área:</h3>
         <p><%=trianguloEquilatero.getArea()%></p>
         

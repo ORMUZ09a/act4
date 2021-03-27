@@ -8,7 +8,6 @@ public class TrianguloEquilatero {
     
     private double base;
     private double altura;
-    private String name;
     
     public TrianguloEquilatero(double base, double altura){
         this.base = base;
@@ -22,15 +21,7 @@ public class TrianguloEquilatero {
     public double getPerimetro(){
         return this.base * 3;
     }
-       public TrianguloEquilatero(String name){
-    this.name= name;
     }
-    
-     public String getName(){
-     return this.name;
-     }
-    }
- 
     
 
    
